@@ -6,7 +6,7 @@ import ButtonDemo from './components/ButtonDemo.vue';
 import DialogDemo from './components/DialogDemo.vue';
 import TabsDemo from './components/TabsDemo.vue';
 import DocDemo from './components/DocDemo.vue';
-import InputDemo from './components/InputDemo.vue'
+import InputDemo from './components/InputDemo.vue';
 
 
 const history = createWebHashHistory();

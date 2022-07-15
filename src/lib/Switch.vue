@@ -16,7 +16,7 @@ export default {
       // this.emit
     };
     return { toggle };
-  },
+  }
 };
 </script>
 

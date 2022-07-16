@@ -1,10 +1,18 @@
 <template>
+<h1>示例1</h1>
   <div>
     <Button>Hello</Button>
     <Button theme="button">Hello</Button>
     <Button theme="link">Hello</Button>
     <Button theme="text">Hello</Button>
   </div>
+  <h1>示例2</h1>
+  <div>
+    <Button size="big">大大大</Button>
+    <Button>普普通</Button>
+    <Button size="small">小小小</Button>
+  </div>
+  
 </template> 
 
 <script lang="ts">

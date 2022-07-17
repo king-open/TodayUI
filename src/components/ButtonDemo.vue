@@ -1,7 +1,7 @@
 <template>
   <h1>示例1</h1>
   <div>
-    <Button>Hello</Button>
+    <Button @click="onClick">Hello</Button>
     <Button theme="button">Hello</Button>
     <Button theme="link">Hello</Button>
     <Button theme="text">Hello</Button>

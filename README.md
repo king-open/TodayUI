@@ -6,9 +6,14 @@
 
 
 
+
 ### case 
 
 Q: 三个文件.vue 文件 bug 
 
 A: 引用 **vue** 写成了 `vue-router`
+
+Q：在写 按钮组件时 出现了一个bug，不知道哪里的代码牵扯到了Switch 组件 
+
+A:
 

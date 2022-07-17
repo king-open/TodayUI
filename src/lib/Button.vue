@@ -1,5 +1,5 @@
 <template>
-<button class="to-button" :class="classes">
+<button class="to-button" :class="classes" :disabled="disabled">
   <slot/>
 </button>
 </template>
@@ -20,6 +20,10 @@ export default {
     level:{
       type:String,
       default:'normal',
+    },
+    disabled:{
+      type:String,
+      default:false,
     },
   },
   setup(props){
@@ -42,6 +46,7 @@ $color:#333;
 $blue:#40a9ff;
 $radius:4px;
 $red:red;
+$grey:grey;
 .to-button{
   box-sizing: border-box;
   height: $h;
@@ -135,6 +140,21 @@ $red:red;
       &:hover,&:focus{
         color: darken($red,10%);
       }
+    }
+  }
+  &.to-theme-button{
+    &[disabled]{
+      cursor: not-allowed;
+      color: $grey;
+      &:hover{
+        border-color: $grey;
+      }
+    }
+  }
+  &.to-theme-link,&.to-theme-text{
+    &[disabled]{
+      cursor: not-allowed;
+      color: $grey;
     }
   }
 }
